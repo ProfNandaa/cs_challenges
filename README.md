@@ -5,7 +5,7 @@ This repository will contain challenges for basic computer science knowledge lik
 ## Getting Started
 * This repository is written in `Python` so you would need to install `python 2.7` on your machine if you do not have it already
 * Make sure to have python's package manager `pip` installed. Instructions [Here!](http://python-packaging-user-guide.readthedocs.org/en/latest/installing/#install-pip-setuptools-and-wheel)
-* Install the `virtualenv` [package](https://virtualenv.readthedocs.org/en/latest/) and the `virtualenvwrapper` [extension](http://virtualenvwrapper.readthedocs.org/en/latest/index.html)
+* Install the `virtualenv` package and the `virtualenvwrapper` extension &mdash; [see guide guide](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 * Create and activate a virtualenv
 * Clone this repository
 * Go to the `sorting_challenge` directory
