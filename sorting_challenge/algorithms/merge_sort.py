@@ -4,10 +4,10 @@ class MergeSort:
         self.list = listx
 
     def merge(self, p, q, r):
-        L = self.list[p:q+1]
-        R = self.list[q+1:r+1]
+        L = self.list[p:q + 1]
+        R = self.list[q + 1:r + 1]
 
-        #add sentinels
+        # add sentinels
         L.append(float("inf"))
         R.append(float("inf"))
 
@@ -27,7 +27,7 @@ class MergeSort:
         if p < r:
             q = (p + r) // 2
             self.merge_sort(p, q)
-            self.merge_sort(q+1, r)
+            self.merge_sort(q + 1, r)
             self.merge(p, q, r)
         return self.list
 
